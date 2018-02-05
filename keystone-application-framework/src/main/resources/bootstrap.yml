@@ -1,0 +1,9 @@
+server:
+  contextPath: /keystone-service
+  port: 8585
+
+Spring:
+  cloud:
+    enabled: false
+  datasource:
+    url: ${vcap.services.mysql-service.credentials.jdbcUrl}
