@@ -37,9 +37,6 @@ public class RestRulesSerive implements IRulesInvokerService {
 			ParameterizedTypeReference<?> responseType) {
 		
 		ResponseEntity<?> response = new RestTemplate().exchange(url, httpMethod, requestEntity, responseType);
-		if(response==null) {
-			log.info("Response returned is null");
-		}
 		log.info("going to return RULES ENGINE REST response . Class: "+this.getClass().getName());
 		return response;
 	}
