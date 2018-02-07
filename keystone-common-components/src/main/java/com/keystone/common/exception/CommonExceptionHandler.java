@@ -24,7 +24,6 @@ import com.keystone.common.exception.message.MessageType;
 import com.keystone.common.exception.types.BusinessValidationException;
 import com.keystone.common.exception.types.DataAccessException;
 import com.keystone.common.exception.types.ResourceNotFoundException;
-import com.keystone.common.exception.types.SecurityException;
 import com.keystone.common.utils.ErrorCodes;
 
 import javassist.NotFoundException;

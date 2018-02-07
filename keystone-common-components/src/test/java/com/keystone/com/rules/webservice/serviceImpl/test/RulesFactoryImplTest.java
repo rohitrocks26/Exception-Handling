@@ -1,7 +1,5 @@
 package com.keystone.com.rules.webservice.serviceImpl.test;
 
-import static org.mockito.Mockito.when;
-
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -9,7 +7,6 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 
-import com.keystone.com.rules.webservice.serviceImpl.RestRulesSerive;
 import com.keystone.com.rules.webservice.serviceImpl.RulesFactoryImpl;
 import com.keystone.common.rules.webservice.service.IRulesInvokerService;
 import com.keystone.common.utils.RulesConstants;
